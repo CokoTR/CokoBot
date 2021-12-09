@@ -1,16 +1,15 @@
 {
   "//1": "v12 Müzik Botu",
-  "name": "ArdaDemr Müzik Bot",
+  "name": "Kimsesiz Müzik Bot",
   "version": "0.0.1",
-  "description": "ArdaDemr Müzik Bot",
-  "main": "bot.js",
+  "description": "Kimsesiz Müzik Bot",
+  "main": "kimsesiz.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node kimsesiz.js"
   },
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
-    "discord.js": "^13.3.1",
-    "events": "^3.3.0",
+    "discord.js": "^12.5.1",
     "express": "^4.17.1",
     "fs": "^0.0.2",
     "genius-lyrics": "^4.2.0",
@@ -32,5 +31,5 @@
     "glitch",
     "express"
   ],
-  "author": "ArdaDemr"
+  "author": "Kimsesiz"
 }

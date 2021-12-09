@@ -8,7 +8,7 @@ const Discord = require('discord.js')
 const { play } = require("../system/music.js") 
 module.exports = {
   name: "oynat",
-  description: "ArdaDemr - Youtube",
+  description: "Kimsesiz",
   async execute(client, message, args) {
 
     if (!args.length) {
