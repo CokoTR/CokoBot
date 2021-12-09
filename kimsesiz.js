@@ -45,4 +45,9 @@ client.on("message", message => {
   }
 });
 
+client.ekayarlar = {
+  sunucu: "https://discord.gg/4REvEbXSkZ",
+  ID: "917497512712101950",
+}
+
 client.login(ayarlar.TOKEN)
