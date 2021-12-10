@@ -64,7 +64,6 @@ module.exports = {
            wiews : songData.videoDetails.viewCount,
           likes : {
           trues : songData.videoDetails.likes.toLocaleString(),
-          falses :songData.videoDetails.dislikes.toLocaleString()
          }
         };
 
@@ -91,7 +90,6 @@ module.exports = {
            wiews : songData.videoDetails.viewCount,
           likes : {
           trues : songData.videoDetails.likes.toLocaleString(),
-          falses :songData.videoDetails.dislikes.toLocaleString()
          }
   
         };
@@ -111,8 +109,7 @@ module.exports = {
         .addField('Kanal',song.author,true)
         .addField('Şarkı Saniyesi',song.duration,true)
         .addField('İzlenme Sayısı',song.wiews.toLocaleString(),true)
-        .addField('Like 👍',song.likes.trues,true)
-        .addField('Dislike 👎',song.likes.falses,true))
+        .addField('Like 👍',song.likes.trues,true))
       .catch(console.error)
     } else {
       queueConstruct.songs.push(song);
