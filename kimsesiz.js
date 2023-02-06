@@ -53,7 +53,7 @@ client.on("message", (message) => {
 client.ekayarlar = {
   sunucu: "https://discord.gg/4REvEbXSkZ",
   ID: "1032634731524804608",
-  durum: "Muzik Dinliyor",
+  durum: "Prefix +",
 };
 
 client.login(process.env.token);
