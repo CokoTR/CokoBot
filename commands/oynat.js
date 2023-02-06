@@ -102,8 +102,7 @@ module.exports = {
         .setThumbnail(song.thumbnail)
         .addField('Kanal',song.author,true)
         .addField('Şarkı Saniyesi',song.duration,true)
-        .addField('İzlenme Sayısı',song.wiews.toLocaleString(),true)
-        .addField('Like 👍',song.likes.trues,true))
+        .addField('İzlenme Sayısı',song.wiews.toLocaleString(),true))
       .catch(console.error)
     } else {
       queueConstruct.songs.push(song);
