@@ -5,7 +5,7 @@ const { readdirSync } = require("fs");
 const { join } = require("path");
 const ayarlar = require("./ayarlar.json")
 client.on("ready", () => {
-  console.log('Kimsesiz bot aktif')
+  console.log('Coko bot aktif')
   client.user.setActivity("Müzik")
 })
 client.on("warn", info => console.log(info));
@@ -47,7 +47,7 @@ client.on("message", message => {
 
 client.ekayarlar = {
   sunucu: "https://discord.gg/4REvEbXSkZ",
-  ID: "917497512712101950",
+  ID: "1032634731524804608",
 }
 
-client.login(ayarlar.TOKEN)
+client.login(process.env.token)

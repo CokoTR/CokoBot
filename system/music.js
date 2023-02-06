@@ -52,8 +52,6 @@ module.exports = {
         .addField('Kanal',song.author,true)
         .addField('Video Saniyesi',song.duration,true)
         .addField('İzlenme Sayısı',song.wiews.toLocaleString(),true)
-        .addField('Like 👍',song.likes.trues,true)
-        .addField('Disslike 👎',song.likes.falses,true)
         .setColor("ffc300")
       
       

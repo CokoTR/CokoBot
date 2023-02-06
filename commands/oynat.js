@@ -62,9 +62,6 @@ module.exports = {
            thumbnail : songData.videoDetails.thumbnails[0].url,
            author : songData.videoDetails.author.name,
            wiews : songData.videoDetails.viewCount,
-          likes : {
-          trues : songData.videoDetails.likes.toLocaleString(),
-         }
         };
 
       } catch (error) {
@@ -88,9 +85,6 @@ module.exports = {
            thumbnail : songData.videoDetails.thumbnails[0].url,
            author : songData.videoDetails.author.name,
            wiews : songData.videoDetails.viewCount,
-          likes : {
-          trues : songData.videoDetails.likes.toLocaleString(),
-         }
   
         };
 

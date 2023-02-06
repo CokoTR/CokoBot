@@ -7,14 +7,14 @@ module.exports = {
   message.channel.send(new Discord.MessageEmbed()
                       .setDescription(
     `
-\<a:909843425904447520:909843425904447520> **${ayarlar.PREFIX}oynat <şarkı-adı>\ : **Bir Şarkıyı Oynatır. 
-\<a:909843425904447520:909843425904447520> **${ayarlar.PREFIX}atla\ : **Sıradaki şarkıyı atlar.
-\<a:909843425904447520:909843425904447520> **${ayarlar.PREFIX}döngü\ : **Çalan şarkıyı sürekli tekrarlar.
-\<a:909843425904447520:909843425904447520> **${ayarlar.PREFIX}durdur\ : **Şarkıyı durdurur.
-\<a:909843425904447520:909843425904447520> **${ayarlar.PREFIX}devam\ : **Duran şarkıyı devam ettirir.
-\<a:909843425904447520:909843425904447520> **${ayarlar.PREFIX}sıra\ : **Şarkı sırasını gösterir.
-\<a:909843425904447520:909843425904447520> **${ayarlar.PREFIX}şarkı\ : **Oynatılan şarkının adını söyler.
-\<a:909843425904447520:909843425904447520> **${ayarlar.PREFIX}davet\ : **Botun davet linkini atar.
+\ **${ayarlar.PREFIX}oynat <şarkı-adı>\ : **Bir Şarkıyı Oynatır. 
+\ **${ayarlar.PREFIX}atla\ : **Sıradaki şarkıyı atlar.
+\ **${ayarlar.PREFIX}döngü\ : **Çalan şarkıyı sürekli tekrarlar.
+\ **${ayarlar.PREFIX}durdur\ : **Şarkıyı durdurur.
+\ **${ayarlar.PREFIX}devam\ : **Duran şarkıyı devam ettirir.
+\ **${ayarlar.PREFIX}sıra\ : **Şarkı sırasını gösterir.
+\ **${ayarlar.PREFIX}şarkı\ : **Oynatılan şarkının adını söyler.
+\ **${ayarlar.PREFIX}davet\ : **Botun davet linkini atar.
 `)
                        .setColor("000000")
                       )    
